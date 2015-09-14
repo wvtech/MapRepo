@@ -1,0 +1,215 @@
+/*header css*/
+.custom-sidebar-collapse {
+	margin: 0 10px;
+	cursor:pointer;
+}
+.custom-sidebar-collapse i {
+	line-height: 36px !important;
+}
+
+
+.t-discount {
+	background-color: #fff !important;
+	color: #0190c8;
+}
+.related-item {
+	display: inline-block;
+}
+p.related-item img {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+span.related-item-name {
+	text-transform: uppercase !important;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	left: 5px;
+	top: -7px;
+	font-weight:500;
+}
+.discount-label {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	z-index: 1;
+}
+.discount-label > p {
+	background-color: #fff;
+	margin: 0 0 !important;
+	border-radius: 50%;
+	width: 28px;
+	height: 28px;
+	text-align: center;
+}
+.discount-label > p >span {
+	color: #000;
+	font-size: 10px;
+	text-align: center;
+	position: relative;
+	top: 1px;
+}
+.food-icon-highlight {
+	background: url(../images/like-icons.png) 0px -60px;
+}
+.food-icon {
+	background: url(../images/like-icons.png) 0px -39px;
+}
+.icons-like-highlight {
+	background: url(../images/like-icons.png) 0px -20px;
+}
+.icons-like {
+	background: url(../images/like-icons.png) 0px 0px;
+}
+.icon-background-top {
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	z-index: 1;
+	width: 20px;
+	height: 20px;
+}
+.icon-background-bottom {
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 6px;
+	right: 5px;
+	z-index: 1;
+	width: 20px;
+	height: 20px;
+}
+.item-block {
+	width: 100%;
+	float: left;
+}
+.item-block .product_image {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #E2E2E2;
+	float: left;
+	height: 110px;
+	margin: 0 8px 0 0;
+	width: 100px;
+	position: relative;
+}
+.product_image:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.46);
+}
+.product_image {
+	position: relative;
+}
+.product_image img {
+	width: 100%;
+	height: 100%;
+}
+.item-list-text {
+	position: relative;
+	display: table;
+	content: "";
+	min-height: 100px;
+}
+.item-list-text h4 {
+	font-size: 13px;
+	margin: 0 0 !important;
+	text-transform: uppercase;
+}
+.item-list-text span.days {
+	font-size: 9px;
+	text-transform: uppercase;
+	margin-left: 10px;
+	letter-spacing: 1px;
+	font-weight:300;
+}
+.item-list-text p {
+	margin: 0 0 5px 0 !important;
+	font-size: 12px;
+	color: #8d8d8d;
+	font-weight: 300;
+}
+.discount-list {
+	border: 1px solid #e5e5e5;
+	margin-bottom: 10px;
+}
+.side-nav .collapsible-body {
+	padding: 10px;
+}
+img.profileimg {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	background: #fff;
+	padding: 0px !important;
+	position: relative;
+	top: 6px;
+	left: 5px;
+}
+.inline-bl {
+	display: inline-block;
+	vertical-align: middle;
+}
+.contact {
+	display: inline-block;
+}
+.contact .fa {
+	color: #e4e5e5;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+.inline-bl {
+	display: inline-block;
+	vertical-align: middle;
+}
+.third-nav > a {
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	display: inline-block;
+	margin-left: 2px;
+}
+.inner-menu{
+padding:9px;
+}
+.food > a {
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	margin-left: 2px;
+	padding: 5px;
+}
+.logo > a {
+	color: #fff;
+}
+.top-header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+ @media only screen and (max-width:600px) {
+.logo {
+	border-bottom: 1px solid #0898D0;
+}
+ @media only screen and (max-width:600px) {
+ .food {
+text-align:right;
+border-bottom: 1px solid #0898D0;
+}
+}
+ @media only screen and (max-width:600px) {
+.third-nav {
+	text-align: right;
+	border-bottom: 1px solid #0898D0;
+}
+}
+/*header css end*/	
+	
+.profile-info.dropdown > a img {
+	border: 2px solid #f5f5f5;
+	margin-right: 5px;
+}
